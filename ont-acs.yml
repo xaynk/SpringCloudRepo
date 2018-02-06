@@ -1,0 +1,17 @@
+
+version: Version 1
+component.name: ont-acs
+
+---
+
+spring:
+    profiles : DC1
+
+location: Data Center 1
+
+---
+
+spring:
+    profiles : DC2
+
+location: Data Center 2
